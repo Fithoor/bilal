@@ -1,0 +1,189 @@
+@media only screen and (max-width: 480px) {
+   
+    header{
+      height: 7vh;
+    }
+    header img{
+        max-height: 23px;
+        padding-left: 7px;
+      
+    }
+
+    header ul{
+        align-items: flex-end;
+    }
+    header ul li{
+        padding: 0px 9px;
+        font-size: .9em;
+    }
+
+     
+    .section-1{
+        flex-direction: column;
+  }
+
+  .content-1{
+    width: 90vw;
+    order: 2;
+    text-align: center;
+    margin-top: 34px;
+
+}
+
+.content-1 p{
+    font-size: 1.2rem;
+}
+.inputes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inputes input{
+    height: 44px;
+    width: 90vw;
+    margin: auto;
+    display: block;
+    margin-top: 12px;
+}
+
+.inputes a{
+    width: 90vw; 
+    margin: 17px 0px 12px;
+    font-size: 1.4rem;
+    
+}
+
+.section-1 img{
+    height: 34vh;
+    order: 1;
+}
+
+.section-2{
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+.content-2{
+    width: 90vw;
+    order: 2;
+    align-items: center;
+}
+.content-2 .h{
+    text-align: center;
+    font-size: 1.4rem;
+}
+.content-2 .p1{
+  width: 90vw;
+   font-size: 1.05rem;
+    padding-left: 4px;
+}
+.content-2 a{ 
+    font-size: 1.3rem;
+    margin-top: 33px;
+}
+.section-2 img{
+    height: 34vh;
+    order: 1;
+    margin-top: 23px;
+}
+
+
+.feedback{
+    height: 25vh;
+    width: 80vw;
+
+}
+
+.comment{
+    padding: 23px;
+    font-size: .9rem;
+
+}
+.comment::before{
+    content: 'Comment :-';
+    display: block;
+    font-weight: 700;
+    padding-bottom: 6px;
+}
+
+
+.image{
+    margin-top: 13px;
+}
+
+.image h1{
+    font-size: 14px;
+    position: relative;
+    margin-left: 64px;
+}
+.image p{
+    font-size: 12px;
+    margin-left: 64px;
+}
+.feedback img{
+    height: 29px;
+    width: 29px;
+    margin-top: 5px;
+}
+
+.section-3{
+    flex-direction: column; 
+    justify-content:center;  
+}
+
+.content-3{
+    width: 85vw;
+    text-align: center;
+}
+
+.content-3 p{
+    width: 88vw;
+font-size: 1.22rem;
+}
+.email{
+    width: 70vw;
+    margin-top: 4vh;
+}
+.email input{
+    height: 4.5vh;
+    width: auto;
+    border-radius: 3px;
+}
+.email a{
+  width: auto;
+  text-align: center;
+    font-weight: 700;
+}
+
+.section-4{
+    display: block;
+   text-align: center;
+   height: fit-content;
+}
+
+
+.footer .logo-fylo{
+    padding-left: 34px;
+}
+.footer-phone{
+    padding-left: 37px;
+
+}
+
+.footer-2{
+    margin-top: 23px;
+}
+.footer-2 ul li{
+    display: inline;
+    padding: 0px 12px;
+}
+.footer-3{
+    margin-top: 23px;
+}
+.footer-3 ul li{
+    display: inline;
+    padding: 0px 12px;
+}
+
+}

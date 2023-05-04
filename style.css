@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: rgb(233, 231, 229);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    width: 100%;
+    padding: 19px 15px;
+}
+header img{
+    height: 35px;
+    padding-left: 23px;
+  
+}
+header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+header ul li{
+    padding: 0px 23px;
+    font-size: 1em;
+}
+header ul li:hover{
+    border-bottom: 2px solid black;
+   cursor: pointer;
+}
+ 
+.section-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content-1{
+    display: flex;
+    flex-direction: column;
+    width: 34vw;
+
+}
+.content-1 h1{
+    font-size: 1.8rem;
+    padding-bottom: 18px;
+}
+.content-1 p{
+    font-size: .9rem;
+    padding-bottom: 18px;
+}
+.inputes input{
+    height: 34px;
+    width: 236px;
+    padding: 0px 13px;
+}
+
+.inputes a{
+    text-decoration: none;
+    border: 1px solid rgb(84, 84, 236);
+    padding: 5.2px 23px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(84, 84, 236);
+    margin-left: 18px;
+}
+
+
+.section-1 img{
+    height: 345px;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 95px;
+    align-items: center;
+}
+.content-2{
+    display: flex;
+    flex-direction: column;
+    width: 37vw;
+}
+.content-2 .h{
+    font-size: 1.8rem;
+    padding-bottom: 18px;
+}
+.content-2 .p1{
+    width: 30vw;
+   font-size: 12px;
+   padding-bottom: 15px;
+}
+.content-2 a{
+    text-decoration: none;
+    border-bottom: 2px solid rgb(10, 209, 10);
+    width: fit-content;
+    padding-bottom: 4px;
+    color: rgb(54, 196, 54);
+}
+
+
+.section-2 img{
+    height:365px;
+}
+
+
+.feedback{
+    height: 30vh;
+    width: 24vw;
+   background-color: rgb(255, 255, 255);
+    margin-top: 65px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px 5px gainsboro;
+
+}
+
+.comment{
+    padding: 23px;
+    font-size: 13px;
+
+}
+
+
+.image{
+    margin-top: 13px;
+}
+
+.image h1{
+    font-size: 14px;
+    position: relative;
+    margin-left: 64px;
+}
+.image p{
+    font-size: 12px;
+    margin-left: 64px;
+}
+.feedback img{
+    height: 29px;
+    width: 29px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 23px;
+}
+
+.section-3{
+    background-color: rgb(85, 87, 142);
+    height: fit-content;
+    margin-top: 120px; 
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;  
+    padding: 65px 84px;
+    align-items: center;
+}
+.content-3{
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+.content-3 h1{
+    padding-bottom: 25px;
+}
+.content-3 p{
+    width: 34vw;
+    font-size: 15px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+}
+.email input{
+    height: 6vh;
+    width: 29vw;
+    border-radius: 6px;
+    border: none;
+    padding-left: 12px;
+    color: gray;
+}
+.email a{
+    text-decoration: none;
+    margin-top: 12px;
+    padding: 10px 20px;
+    background-color: rgb(101, 101, 245);    display: block;
+    width: fit-content;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 5px;
+    word-spacing: 0px;
+}
+
+.section-4{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 65px;
+    padding-bottom: 45px;
+    background-color: rgb(7,4,59);
+    color: rgb(176, 195, 246);
+    
+}
+.footer .logo-fylo{
+    height: 34px;
+    display: block;
+    margin-bottom: 23px;
+}
+.footer-phone{
+    display: inline;
+    height: 18px;
+
+}
+.footer-email{
+    display: inline;
+    height: 18px;
+    margin-top: 18px;
+}
+.footer p{
+    display: inline;
+    padding-left: 12px;
+   
+}
+.footer p:hover{
+    color: white;
+    cursor: pointer;
+}
+.section-4 ul li{
+    list-style: none;
+    padding: 3px 0px;
+}
+.section-4 ul li:hover{
+    color: white;
+    cursor: pointer;
+}
+a:hover{
+    background-color: blue;
+}

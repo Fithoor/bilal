@@ -110,7 +110,7 @@ header ul li:hover{
 
 
 .feedback{
-    height: 30vh;
+    height: fit-content;
     width: 24vw;
    background-color: rgb(255, 255, 255);
     margin-top: 65px;
@@ -128,6 +128,7 @@ header ul li:hover{
 
 .image{
     margin-top: 13px;
+    margin-bottom:1rem;
 }
 
 .image h1{

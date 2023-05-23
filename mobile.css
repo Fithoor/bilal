@@ -90,7 +90,7 @@
 
 
 .feedback{
-    height: 25vh;
+    height: fir-content;
     width: 80vw;
 
 }
@@ -110,6 +110,7 @@
 
 .image{
     margin-top: 13px;
+    margin-bottom: 1rem;
 }
 
 .image h1{
